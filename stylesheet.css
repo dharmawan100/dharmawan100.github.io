@@ -1,0 +1,407 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  /* Ubah position ke fixed, dan top ke 0 */
+  position: fixed;
+  top: 0;
+
+  /* Ubah z-index ke 10 */
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  height: 30px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  transition: all 0.5s;
+  height: 65px;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right h3 {
+  background-image: url("https://cdn4.iconfinder.com/data/icons/font-awesome-2/2048/f08b-128.png");
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position-y: 50%;
+  margin-left: 25px;
+}
+
+.header-right a {
+  padding: 0 25px;
+  color: white;
+  margin-left: 10px;
+  display: block;
+}
+
+.container {
+  width: 95%;
+  padding: 0 15px 0 15px;
+  margin: 0 auto 0 auto;
+}
+
+.top-wrapper {
+  padding: 100px 0 120px 0;
+  color: white;
+  background-image: url(https://unblast.com/wp-content/uploads/2018/10/Magazine-Brochure-Mockup-1-1600x1066.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.9;
+  font-size: 50px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.9;
+  margin-bottom: 3px;
+  font-size: 35px
+}
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+}
+
+.containers {
+  width: 1170px;
+  margin: 2px auto;
+}
+
+.lesson-right {
+  float: right;
+  width: 80%;
+  text-align: center;
+  background-color: rgba(236, 240, 241,1.0);
+  margin-top: 20px;
+  height: 500px;
+}
+
+.heading {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+  text-align: left;
+}
+
+.lesson {
+  float: left ;
+  width: 25%;
+}
+
+.containerss {
+  width: 100%;
+  margin: 2px 0;
+}
+
+.headingg {
+  margin-bottom: 1px;
+  color: #5f5d60;
+}
+
+.headingg h3 {
+  padding-left: 10px;
+  font-size: 28px;
+}
+
+.lesson-left {
+  float: left;
+  width: 18%;
+  text-align: left;
+  background-color: rgba(189, 195, 199,1.0);
+  margin-top: 20px;
+  height: 500px;
+}
+
+.btn-lesson11:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-lesson11 {
+  line-height: 40px;
+  padding-left: 0;
+  display: none;
+  transition: all 0.5s;
+}
+
+.btn-lesson11 h3 {
+  background-image: url("https://cdn2.iconfinder.com/data/icons/font-awesome/1792/home-512.png");
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position-y: 50%;
+  margin-left: 18px;
+}
+
+.btn-lesson11 a {
+  margin-left: 1px;
+  color: none;
+}
+
+.btn-lesson1:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-lesson1 {
+  line-height: 40px;
+  padding-left: 10px;
+  display: block;
+  transition: all 0.5s;
+}
+
+.btn-lesson1 h3 {
+  background-image: url("https://cdn2.iconfinder.com/data/icons/font-awesome/1792/home-512.png");
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-position-y: 50%;
+  margin-left: 1px;
+}
+
+.btn-lesson1 a {
+  margin-left: 40px;
+  color: black;
+}
+
+.btn-lesson2:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-lesson2 {
+  line-height: 40px;
+  padding-left: 10px;
+  display: block;
+  transition: all 0.5s;
+}
+
+.btn-lesson2 h3 {
+  background-image: url("https://cdn2.iconfinder.com/data/icons/font-awesome/1792/user-512.png");
+  background-repeat: no-repeat;
+  background-size: 13%;
+  background-position-y: 50%;
+  margin-left: 1px;
+}
+
+.btn-lesson2 a {
+  margin-left: 40px;
+  color: black;
+}
+
+.btn-lesson22:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-lesson22 {
+  margin-top: 30px;
+  line-height: 40px;
+  padding-left: 0;
+  display: none;
+  transition: all 0.5s;
+}
+
+.btn-lesson22 h3 {
+  background-image: url("https://cdn2.iconfinder.com/data/icons/font-awesome/1792/user-512.png");
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position-y: 50%;
+  margin-left: 18px;
+}
+
+.btn-lesson22 a {
+  margin-left: 1px;
+  color: none;
+}
+
+.btn-lesson3:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-lesson3 {
+  line-height: 40px;
+  padding-left: 10px;
+  display: block;
+  transition: all 0.5s;
+}
+
+.btn-lesson3 h3 {
+  background-image: url("https://cdn4.iconfinder.com/data/icons/font-awesome-2/2048/f073-128.png");
+  background-repeat: no-repeat;
+  background-size: 12%;
+  background-position-y: 50%;
+  margin-left: 1px;
+}
+
+.btn-lesson3 a {
+  margin-left: 40px;
+  color: black;
+}
+
+.btn-lesson33:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-lesson33 {
+  margin-top: 30px;
+  line-height: 40px;
+  padding-left: 0;
+  display: none;
+  transition: all 0.5s;
+}
+
+.btn-lesson33 h3 {
+  background-image: url("https://cdn4.iconfinder.com/data/icons/font-awesome-2/2048/f073-128.png");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position-y: 50%;
+  margin-left: 18px;
+}
+
+.btn-lesson33 a {
+  margin-left: 1px;
+  color: none;
+}
+
+.btn-lesson4:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-lesson4 {
+  line-height: 40px;
+  padding-left: 10px;
+  display: block;
+  transition: all 0.5s;
+}
+
+.btn-lesson4 h3 {
+  background-image: url("https://cdn4.iconfinder.com/data/icons/font-awesome-2/2048/f044-128.png");
+  background-repeat: no-repeat;
+  background-size: 12%;
+  background-position-y: 50%;
+  margin-left: 1px;
+}
+
+.btn-lesson4 a {
+  margin-left: 40px;
+  color: black;
+}
+
+.btn-lesson44:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-lesson44 {
+  margin-top: 30px;
+  line-height: 40px;
+  padding-left: 0;
+  display: none;
+  transition: all 0.5s;
+}
+
+.btn-lesson44 h3 {
+  background-image: url("https://cdn4.iconfinder.com/data/icons/font-awesome-2/2048/f044-128.png");
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position-y: 50%;
+  margin-left: 18px;
+}
+
+.btn-lesson44 a {
+  margin-left: 1px;
+  color: none;
+}
+
+.btn-lesson5:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-lesson5 {
+  line-height: 40px;
+  padding-left: 10px;
+  display: block;
+  transition: all 0.5s;
+}
+
+.btn-lesson5 h3 {
+  background-image: url("https://cdn4.iconfinder.com/data/icons/font-awesome-2/2048/f0a1-128.png");
+  background-repeat: no-repeat;
+  background-size: 12%;
+  background-position-y: 50%;
+  margin-left: 1px;
+}
+
+.btn-lesson5 a {
+  margin-left: 40px;
+  color: black;
+}
+
+.btn-lesson55:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-lesson55 {
+  margin-top: 30px;
+  line-height: 40px;
+  padding-left: 0;
+  display: none;
+  transition: all 0.5s;
+}
+
+.btn-lesson55 h3 {
+  background-image: url("https://cdn4.iconfinder.com/data/icons/font-awesome-2/2048/f0a1-128.png");
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position-y: 50%;
+  margin-left: 18px;
+}
+
+.btn-lesson55 a {
+  margin-left: 1px;
+  color: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+}
