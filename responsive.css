@@ -1,0 +1,84 @@
+/* Untuk Tablets */
+@media (max-width: 1000px) {
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+
+  .btn-lesson1 a {
+    font-size: 10px;
+  }
+
+  .btn-lesson2 a {
+    font-size: 10px;
+  }
+
+  .btn-lesson3 a {
+    font-size: 10px;
+  }
+
+  .btn-lesson4 a {
+    font-size: 10px;
+  }
+
+  .btn-lesson5 a {
+    font-size: 10px;
+  }
+}
+
+/* Untuk Smartphones */
+@media (max-width: 670px) {
+  .top-wrapper h1 {
+    font-size: 20px;
+  }
+
+  .top-wrapper p {
+    font-size: 12px;
+  }
+
+  .headingg h3 {
+    font-size: 12px;
+  }
+    .btn-lesson1 {
+      display: none;
+    }
+
+    .btn-lesson11 {
+      display: block;
+    }
+
+    .btn-lesson2 {
+      display: none;
+    }
+
+    .btn-lesson22 {
+      display: block;
+    }
+
+    .btn-lesson3 {
+      display: none;
+    }
+
+    .btn-lesson33 {
+      display: block;
+    }
+
+    .btn-lesson4 {
+      display: none;
+    }
+
+    .btn-lesson44 {
+      display: block;
+    }
+
+    .btn-lesson5 {
+      display: none;
+    }
+
+    .btn-lesson55 {
+      display: block;
+    }
+}
